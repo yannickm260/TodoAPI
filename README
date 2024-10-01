@@ -1,0 +1,18 @@
+# Todo API
+
+## overview 
+
+This project provides a simple RESTful API for managing a todo list. It is built using Node.js' native HTTP module and allows for CRUD (Create, Read, Update, Delete) operations on todo items, which are stored in a JSON file.
+
+## Features
+
+- GET /todos: Retrieves the list of all todos.
+- POST /todos: Creates a new todo.
+- DELETE /todos?id={id}: Deletes a todo by its ID.
+- PUT /todos?id={id}: Updates an existing todo by its ID.
+- Error Handling : 404 Not Found. If the requested resource or todo item does not exist, a 404 status code is returned.
+
+## Technology used
+
+- **NodeJS** : Open-source, cross-platform JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser. It is primarily used for building server-side and networking applications, such as web servers, APIs, and real-time services like chat applications.
+
